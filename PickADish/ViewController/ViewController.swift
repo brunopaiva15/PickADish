@@ -8,6 +8,7 @@
 
 import UIKit
 import SafariServices
+import Intents
 
 class ViewController: UIViewController, SFSafariViewControllerDelegate {
     

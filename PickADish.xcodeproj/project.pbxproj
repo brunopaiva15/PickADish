@@ -52,6 +52,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3A40F5B824A67C070088BA47 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		3A13267C249CEE4600DB8F29 /* PickADish.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = PickADish.entitlements; path = PickADish/PickADish.entitlements; sourceTree = "<group>"; };
 		3A2624B32492E1410059DC6B /* b+s_variant2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "b+s_variant2.png"; sourceTree = "<group>"; };
@@ -240,6 +253,7 @@
 				3AA0E817248ECB2F0089537D /* Sources */,
 				3AA0E818248ECB2F0089537D /* Frameworks */,
 				3AA0E819248ECB2F0089537D /* Resources */,
+				3A40F5B824A67C070088BA47 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -655,9 +669,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = PickADish/PickADish.entitlements;
+				CODE_SIGN_ENTITLEMENTS = PickADish/PickADishRelease.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = 7UMJV7PGVT;
