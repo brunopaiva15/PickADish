@@ -13,8 +13,6 @@
 		1D0CF762FBEC65B4A8B54ECE47BD0EF4 /* SPAlertIconAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7834A1CF5A4A2654CD5086A55204D28 /* SPAlertIconAnimatable.swift */; };
 		236DB41C9CED4CA449EEFE22A2930D3C /* Pods-PickADish-PickADishUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 835236CAFA61A234ECFAF52CE33CF025 /* Pods-PickADish-PickADishUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34D111B03F09C063F0EA283A3A8A48C2 /* SPAlertIconPrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F20DAB463953016C593E7F03255400 /* SPAlertIconPrivacyView.swift */; };
-		36B49AB4B943AB63C41749CD2913178E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		38E19743F15AF21D289C94FF4FF87903 /* AUPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C515C17AFF6A74CB6E1FEEF2F716F9BF /* AUPickerCell.swift */; };
 		3CD9E9326C6CBCB10C95ABA95BB935F7 /* Pods-PickADish-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A0CBDEE04CC6DF073867F03862BB4D /* Pods-PickADish-dummy.m */; };
 		410CE5F2AB5B9A311202E28AC717B736 /* Pods-PickADish-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DC1F047C257FC9F2A5599844FE174D9 /* Pods-PickADish-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4579839DB44CAAA6C55675966B947483 /* Pods-PickADishTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E7ECE194536CF95C4517B91DAF4EB32 /* Pods-PickADishTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -24,10 +22,8 @@
 		5254060120138B45D3E8D9989AC02DDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
 		55E9BE5C94449A89DDA620CC7CD8D963 /* SPAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80545617D34C49BEDAF5D5912AE0EFCB /* SPAlert-dummy.m */; };
 		561F3EA35F1EADE9A15E6416EF2409EA /* SPAlertIconMoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E893975C9A61175A4C94E17035DC3DA9 /* SPAlertIconMoonView.swift */; };
-		5A0F7814A0B73A691FBC4071C7458495 /* AUPickerCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC7E60E4C51AD5F8EDDA7C5933B374A0 /* AUPickerCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62469D28BEF369846DE0363847B2BBF0 /* SPAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660352F44319AD6D1C96DCFE0C243858 /* SPAlert.swift */; };
 		668E463615D7BDC401C649E414F8B2A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		6F937ACC7BF9BB06CF0828CDD4F7FABE /* AUPickerCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BE06F78118BB773C090844765B8561 /* AUPickerCell-dummy.m */; };
 		7CD1AE8626ED8E244A82561100F15BBF /* SPAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76B302E6F14503072D5B095253CAEBFF /* SPAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		858720387837E0AB13C8068A0FF2C771 /* SPAlertIconExclamationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8613C5B7FD8E06F66B29B0133B4D1783 /* SPAlertIconExclamationView.swift */; };
 		8B1285453AA9FD9A725AAB9E6288A826 /* SPAlertIconDoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E704FC4F2D88D51F2FEC4FB76BD46C71 /* SPAlertIconDoneView.swift */; };
@@ -63,20 +59,6 @@
 			remoteGlobalIDString = B4652B2924FE3B941944F77DA8477ABD;
 			remoteInfo = SPAlert;
 		};
-		7FC3680A7AC80E0FF5518284208C1BF8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A0B2EDF9CCA361C97E0A735BE9EF0140;
-			remoteInfo = AUPickerCell;
-		};
-		8BF11094942E99AD0DEBF154E36E1207 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A0B2EDF9CCA361C97E0A735BE9EF0140;
-			remoteInfo = AUPickerCell;
-		};
 		AF26FD6473C658E855FABA13A9D8F743 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -101,19 +83,16 @@
 		0A94A6A0277D8F56F6EE76C8CA73D57A /* Pods-PickADishTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PickADishTests.modulemap"; sourceTree = "<group>"; };
 		16A8A1559382B74D4AEA5F2654E501C0 /* SPAlertIconDislikeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconDislikeView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconDislikeView.swift; sourceTree = "<group>"; };
 		193A5960104BAC80E232F98D7A589FFE /* Pods-PickADishTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PickADishTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1E9B880DA2CF9C87FFFC6070177E9EB6 /* AUPickerCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AUPickerCell.release.xcconfig; sourceTree = "<group>"; };
 		1F4E9CA3DDE759EA2AC2DFF6512F5179 /* SPAlertIconCardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconCardView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconCardView.swift; sourceTree = "<group>"; };
 		279A28C8E994127F36B697FF30DFC2B2 /* SPAlertIconAddView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconAddView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconAddView.swift; sourceTree = "<group>"; };
 		2D931E69E92D60514EEAA15CC2DAC757 /* SPAlertIconRepeatView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconRepeatView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconRepeatView.swift; sourceTree = "<group>"; };
 		2E7ECE194536CF95C4517B91DAF4EB32 /* Pods-PickADishTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PickADishTests-umbrella.h"; sourceTree = "<group>"; };
-		30D366F6662F24A9F82025A8B4CEAB3D /* AUPickerCell-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AUPickerCell-Info.plist"; sourceTree = "<group>"; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		32BE06F78118BB773C090844765B8561 /* AUPickerCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AUPickerCell-dummy.m"; sourceTree = "<group>"; };
 		39B199A37E1F63D8676D8EE816D296EC /* Pods-PickADish-PickADishUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PickADish-PickADishUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3A42C2270722EAE3DAE675E2D8102082 /* SPAlertIconShuffleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconShuffleView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconShuffleView.swift; sourceTree = "<group>"; };
 		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4988AE738F308303B25773FFC9F43589 /* Pods-PickADish-PickADishUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PickADish-PickADishUITests-Info.plist"; sourceTree = "<group>"; };
-		4C188087AC4828FD5820700B1A17BAD8 /* Pods_PickADish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PickADish.framework; path = "Pods-PickADish.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C188087AC4828FD5820700B1A17BAD8 /* Pods_PickADish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickADish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54FA2BDCE5B5921C99CF1C21E9D87A15 /* Pods-PickADishTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PickADishTests.debug.xcconfig"; sourceTree = "<group>"; };
 		56572FB99E985C8B0D5D47BEB0A859D1 /* SPAlertIconQuestionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconQuestionView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconQuestionView.swift; sourceTree = "<group>"; };
 		5CB6F3F351467ED43D9F45D979D37E73 /* SPAlertIconStarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconStarView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconStarView.swift; sourceTree = "<group>"; };
@@ -128,7 +107,6 @@
 		71568731C6DCC3A8DD4609CCF3AFC49B /* Pods-PickADishTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PickADishTests-Info.plist"; sourceTree = "<group>"; };
 		76B302E6F14503072D5B095253CAEBFF /* SPAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPAlert-umbrella.h"; sourceTree = "<group>"; };
 		78CFDBAC9AF929F0AC948782717185A6 /* SPAlertIconHeartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconHeartView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconHeartView.swift; sourceTree = "<group>"; };
-		78EFA772A916D6514B5D85BACF55D729 /* AUPickerCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AUPickerCell-prefix.pch"; sourceTree = "<group>"; };
 		7C134125859017A255DCED3F124B82B5 /* SPAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPAlert.release.xcconfig; sourceTree = "<group>"; };
 		80545617D34C49BEDAF5D5912AE0EFCB /* SPAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPAlert-dummy.m"; sourceTree = "<group>"; };
 		835236CAFA61A234ECFAF52CE33CF025 /* Pods-PickADish-PickADishUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PickADish-PickADishUITests-umbrella.h"; sourceTree = "<group>"; };
@@ -139,8 +117,8 @@
 		91457298A143D0072C51409D1BF8A72E /* Pods-PickADishTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PickADishTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		936B297D77553542D307527566C49F06 /* Pods-PickADish.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PickADish.modulemap"; sourceTree = "<group>"; };
 		96DE91D4C235910ED1DDE436C303AEA9 /* Pods-PickADish-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PickADish-Info.plist"; sourceTree = "<group>"; };
-		9783D7C9AC023FB629A2E8D6F7ACC411 /* Pods_PickADishTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PickADishTests.framework; path = "Pods-PickADishTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9783D7C9AC023FB629A2E8D6F7ACC411 /* Pods_PickADishTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickADishTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DC1F047C257FC9F2A5599844FE174D9 /* Pods-PickADish-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PickADish-umbrella.h"; sourceTree = "<group>"; };
 		A204138A1A9575E9AD2D0BB8C9464914 /* SPAlertIconSearchView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconSearchView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconSearchView.swift; sourceTree = "<group>"; };
 		A38E8D19BECBBFB6E3FEA966980E2B8C /* Pods-PickADish-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PickADish-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -153,14 +131,11 @@
 		BAF4D6B2EF22825FC876AF6EC45FA5A7 /* Pods-PickADish-PickADishUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PickADish-PickADishUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BB65426DD6AD836E4DDB00A209D899BD /* SPAlertIconEjectView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconEjectView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconEjectView.swift; sourceTree = "<group>"; };
 		BC9064518B46B1ECD28150BE187748DC /* Pods-PickADish-PickADishUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PickADish-PickADishUITests-frameworks.sh"; sourceTree = "<group>"; };
-		BE629661A28417489F63DBC74196BBD6 /* SPAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SPAlert.framework; path = SPAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE629661A28417489F63DBC74196BBD6 /* SPAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SPAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF11700E03CAA1086B64B29EA6435306 /* SPAlertIconFlagView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconFlagView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconFlagView.swift; sourceTree = "<group>"; };
-		C515C17AFF6A74CB6E1FEEF2F716F9BF /* AUPickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AUPickerCell.swift; path = AUPickerCell/AUPickerCell/AUPickerCell.swift; sourceTree = "<group>"; };
 		C872C1ABC1CB87A361AF9E16FB2D557B /* SPAlert-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SPAlert-Info.plist"; sourceTree = "<group>"; };
-		CB03CE4AE8BABB4C2B7C3E51FCE11A6B /* AUPickerCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AUPickerCell.framework; path = AUPickerCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0044D4EF457BA3A0B85F58112E8DA93 /* Pods-PickADish-PickADishUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PickADish-PickADishUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D16E217018FF6823A1D266D2D2331B46 /* Pods_PickADish_PickADishUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PickADish_PickADishUITests.framework; path = "Pods-PickADish-PickADishUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC7E60E4C51AD5F8EDDA7C5933B374A0 /* AUPickerCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AUPickerCell-umbrella.h"; sourceTree = "<group>"; };
+		D16E217018FF6823A1D266D2D2331B46 /* Pods_PickADish_PickADishUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickADish_PickADishUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F20DAB463953016C593E7F03255400 /* SPAlertIconPrivacyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconPrivacyView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconPrivacyView.swift; sourceTree = "<group>"; };
 		E53324B6BEFCD2788AFCF6B237FE88C1 /* SPAlertIconCartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconCartView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconCartView.swift; sourceTree = "<group>"; };
 		E53F1728A0F8B69CE1ACCD48CED9DC8D /* Pods-PickADishTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PickADishTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -168,21 +143,11 @@
 		E704FC4F2D88D51F2FEC4FB76BD46C71 /* SPAlertIconDoneView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconDoneView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconDoneView.swift; sourceTree = "<group>"; };
 		E7A2AB9A17274118F2B2334A99456A6F /* Pods-PickADishTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PickADishTests-dummy.m"; sourceTree = "<group>"; };
 		E893975C9A61175A4C94E17035DC3DA9 /* SPAlertIconMoonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconMoonView.swift; path = Source/SPAlert/Views/Icons/SPAlertIconMoonView.swift; sourceTree = "<group>"; };
-		EAA0AF7A9D047DD3B69557F7E1A58AD4 /* AUPickerCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AUPickerCell.debug.xcconfig; sourceTree = "<group>"; };
 		F7834A1CF5A4A2654CD5086A55204D28 /* SPAlertIconAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SPAlertIconAnimatable.swift; path = Source/SPAlert/Protocol/SPAlertIconAnimatable.swift; sourceTree = "<group>"; };
-		FC4103F6551FF6DE47BCD47AE638D01B /* AUPickerCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AUPickerCell.modulemap; sourceTree = "<group>"; };
 		FD89672ECF27EEAE57A068253BBAA31A /* Pods-PickADish-PickADishUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PickADish-PickADishUITests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0DEE225CE3E68E5140BBA6D979BE9B41 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				36B49AB4B943AB63C41749CD2913178E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7969A6B3C26332EC9CB769C9D9CCB9C4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,7 +212,6 @@
 		71199F819B3CDD170A7C55E858583742 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				78C35F5D10554DDB62C485A7A4AF9624 /* AUPickerCell */,
 				CE93C80B9E7890C240CA9397D453CFED /* SPAlert */,
 			);
 			name = Pods;
@@ -256,23 +220,12 @@
 		78B95D5D3979E51A69290495C827C82E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CB03CE4AE8BABB4C2B7C3E51FCE11A6B /* AUPickerCell.framework */,
 				4C188087AC4828FD5820700B1A17BAD8 /* Pods_PickADish.framework */,
 				D16E217018FF6823A1D266D2D2331B46 /* Pods_PickADish_PickADishUITests.framework */,
 				9783D7C9AC023FB629A2E8D6F7ACC411 /* Pods_PickADishTests.framework */,
 				BE629661A28417489F63DBC74196BBD6 /* SPAlert.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		78C35F5D10554DDB62C485A7A4AF9624 /* AUPickerCell */ = {
-			isa = PBXGroup;
-			children = (
-				C515C17AFF6A74CB6E1FEEF2F716F9BF /* AUPickerCell.swift */,
-				DD4C4E4F9725D7F62054B538232F654E /* Support Files */,
-			);
-			name = AUPickerCell;
-			path = AUPickerCell;
 			sourceTree = "<group>";
 		};
 		7A3D0588DBC8827384AFE0099864DFDC /* Support Files */ = {
@@ -351,7 +304,6 @@
 				A87A2DA6E39EE412A937A70E871B49A8 /* SPAlertView.swift */,
 				7A3D0588DBC8827384AFE0099864DFDC /* Support Files */,
 			);
-			name = SPAlert;
 			path = SPAlert;
 			sourceTree = "<group>";
 		};
@@ -364,21 +316,6 @@
 				78B95D5D3979E51A69290495C827C82E /* Products */,
 				BB4B880770CABA67717CA55BC4B9D2DC /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		DD4C4E4F9725D7F62054B538232F654E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FC4103F6551FF6DE47BCD47AE638D01B /* AUPickerCell.modulemap */,
-				32BE06F78118BB773C090844765B8561 /* AUPickerCell-dummy.m */,
-				30D366F6662F24A9F82025A8B4CEAB3D /* AUPickerCell-Info.plist */,
-				78EFA772A916D6514B5D85BACF55D729 /* AUPickerCell-prefix.pch */,
-				DC7E60E4C51AD5F8EDDA7C5933B374A0 /* AUPickerCell-umbrella.h */,
-				EAA0AF7A9D047DD3B69557F7E1A58AD4 /* AUPickerCell.debug.xcconfig */,
-				1E9B880DA2CF9C87FFFC6070177E9EB6 /* AUPickerCell.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/AUPickerCell";
 			sourceTree = "<group>";
 		};
 		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
@@ -441,14 +378,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F896710F4F92A6CF315F0FA3F0F17976 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A0F7814A0B73A691FBC4071C7458495 /* AUPickerCell-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -483,30 +412,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				E106F9EDA54E8EF63E52122288F2C8FE /* PBXTargetDependency */,
 				A57F6A318513408E1EAF541D51D61C9D /* PBXTargetDependency */,
 			);
 			name = "Pods-PickADish-PickADishUITests";
 			productName = "Pods-PickADish-PickADishUITests";
 			productReference = D16E217018FF6823A1D266D2D2331B46 /* Pods_PickADish_PickADishUITests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A0B2EDF9CCA361C97E0A735BE9EF0140 /* AUPickerCell */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DA76E619902F6FD8CF545E872A6D287F /* Build configuration list for PBXNativeTarget "AUPickerCell" */;
-			buildPhases = (
-				F896710F4F92A6CF315F0FA3F0F17976 /* Headers */,
-				31514A998A555DBC6591672D9493ECA9 /* Sources */,
-				0DEE225CE3E68E5140BBA6D979BE9B41 /* Frameworks */,
-				14421831CA55142CBBF4E3CCBECD1E46 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = AUPickerCell;
-			productName = AUPickerCell;
-			productReference = CB03CE4AE8BABB4C2B7C3E51FCE11A6B /* AUPickerCell.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B4652B2924FE3B941944F77DA8477ABD /* SPAlert */ = {
@@ -539,7 +449,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				511AE9D66FCCE4D6AD8B1DC82F51C702 /* PBXTargetDependency */,
 				D1E96C3B4543308E9D1E14B15F826400 /* PBXTargetDependency */,
 			);
 			name = "Pods-PickADish";
@@ -569,7 +478,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A0B2EDF9CCA361C97E0A735BE9EF0140 /* AUPickerCell */,
 				F8CBEFF1C90D476477F8B010331545F2 /* Pods-PickADish */,
 				4572DC19E272BBFD1B5AE56329BE5449 /* Pods-PickADish-PickADishUITests */,
 				06129368DD329068373261894DFAE76A /* Pods-PickADishTests */,
@@ -579,13 +487,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		14421831CA55142CBBF4E3CCBECD1E46 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7A805BDA450EB36BA6AFFCEB32B78462 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -662,15 +563,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		31514A998A555DBC6591672D9493ECA9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6F937ACC7BF9BB06CF0828CDD4F7FABE /* AUPickerCell-dummy.m in Sources */,
-				38E19743F15AF21D289C94FF4FF87903 /* AUPickerCell.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5C901B2682BB8EF68110EE84EF02E120 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -690,12 +582,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		511AE9D66FCCE4D6AD8B1DC82F51C702 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AUPickerCell;
-			target = A0B2EDF9CCA361C97E0A735BE9EF0140 /* AUPickerCell */;
-			targetProxy = 8BF11094942E99AD0DEBF154E36E1207 /* PBXContainerItemProxy */;
-		};
 		84A7CA11B69C549361AA529893DDA86A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-PickADish";
@@ -713,12 +599,6 @@
 			name = SPAlert;
 			target = B4652B2924FE3B941944F77DA8477ABD /* SPAlert */;
 			targetProxy = 34E70058F8757F3A1AA0EB869ECDA4DD /* PBXContainerItemProxy */;
-		};
-		E106F9EDA54E8EF63E52122288F2C8FE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AUPickerCell;
-			target = A0B2EDF9CCA361C97E0A735BE9EF0140 /* AUPickerCell */;
-			targetProxy = 7FC3680A7AC80E0FF5518284208C1BF8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -935,42 +815,6 @@
 			};
 			name = Debug;
 		};
-		438E613A35B64299F6226E50F2EAF691 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAA0AF7A9D047DD3B69557F7E1A58AD4 /* AUPickerCell.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AUPickerCell/AUPickerCell-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AUPickerCell/AUPickerCell-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/AUPickerCell/AUPickerCell.modulemap";
-				PRODUCT_MODULE_NAME = AUPickerCell;
-				PRODUCT_NAME = AUPickerCell;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		506129AD7B8480C3DBA178F551D85AC0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8E76105145C0B6DDEBC1608654C8D0D0 /* Pods-PickADish.release.xcconfig */;
@@ -1123,43 +967,6 @@
 			};
 			name = Release;
 		};
-		D8C11ED9064336048231AEA36FD16386 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E9B880DA2CF9C87FFFC6070177E9EB6 /* AUPickerCell.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AUPickerCell/AUPickerCell-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AUPickerCell/AUPickerCell-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/AUPickerCell/AUPickerCell.modulemap";
-				PRODUCT_MODULE_NAME = AUPickerCell;
-				PRODUCT_NAME = AUPickerCell;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1268,15 +1075,6 @@
 			buildConfigurations = (
 				78CEE00F1DFD0271B11F0801888BD606 /* Debug */,
 				1EF82765CB771B56F456ADCD5A357B9F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DA76E619902F6FD8CF545E872A6D287F /* Build configuration list for PBXNativeTarget "AUPickerCell" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				438E613A35B64299F6226E50F2EAF691 /* Debug */,
-				D8C11ED9064336048231AEA36FD16386 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

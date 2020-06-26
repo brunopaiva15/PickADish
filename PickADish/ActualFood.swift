@@ -6,13 +6,17 @@
 //  Copyright © 2020 Bruno Paiva. All rights reserved.
 //
 
+// CLASSE QUI S'OCCUPE DES DONNEES DU PLAT SELECTIONNE
+
 import Foundation
 
 class ActualFood {
+    // Variables qui contiendront le nom, l'URL et le type du plat
     static var foodName = ""
     static var foodUrl = ""
     static var foodType = ""
     
+    // Fonctions qui s'occupent de mettre à jour une donnée
     static func setFoodName(foodName: String) {
         ActualFood.foodName = foodName
     }
@@ -25,6 +29,7 @@ class ActualFood {
         ActualFood.foodType = foodType
     }
     
+    // Fonctions qui s'occupent de récupérer la valeur d'une donnée
     static func getFoodName() -> String {
         return foodName
     }

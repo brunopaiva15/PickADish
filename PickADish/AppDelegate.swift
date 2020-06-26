@@ -15,6 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
+        // Si l'application n'a jamais été lancée, initialiser les réglages
         let launchedBefore = UserDefaults.standard.bool(forKey: "launchedBefore")
         if !launchedBefore
         {
@@ -28,26 +29,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             UserDefaults.standard.set(true, forKey: "launchedBefore")
         }
         
+        // 3D Touch
         if let shortcutItem = launchOptions?[UIApplication.LaunchOptionsKey.shortcutItem] as? UIApplicationShortcutItem {
-                notifyUser(message: shortcutItem.type)
+                // Faire une action...
         }
         
-        
         return true
-    }
-    
-    func notifyUser(message: String) {
-
-        let alertController = UIAlertController(title: "Quick Action",
-                        message: message,
-                        preferredStyle: .alert)
-        let okAction = UIAlertAction(title: "OK",
-                        style: .default,
-                        handler: nil)
-
-        alertController.addAction(okAction)
-
-        window!.rootViewController?.present(alertController,
-                animated: true, completion: nil)
     }
 }

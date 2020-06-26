@@ -10,7 +10,6 @@ target 'PickADish' do
   # Pods for PickADish
 
   pod 'SPAlert'
-  pod 'AUPickerCell'
 
   target 'PickADishTests' do
     inherit! :search_paths

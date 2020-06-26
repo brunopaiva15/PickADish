@@ -7,9 +7,9 @@
 //
 
 import UIKit
-import AUPickerCell
 
 class settingsTableViewController: UITableViewController, UIPickerViewDelegate, UIPickerViewDataSource, UITextFieldDelegate {
+    // Fonctions générées par Xcode qui s'occupent de la gestion du pickerView
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
@@ -34,8 +34,6 @@ class settingsTableViewController: UITableViewController, UIPickerViewDelegate, 
     @IBOutlet weak var sourceSettingsLabel: UILabel!
     @IBOutlet weak var lighterColorsLabel: UILabel!
     @IBOutlet weak var lighterColorsSwitch: UISwitch!
-    @IBOutlet weak var versionLabel: UILabel!
-    @IBOutlet weak var buildLabel: UILabel!
     @IBOutlet weak var apparenceTableView: UITableViewCell!
     @IBOutlet weak var apparence2TableView: UITableViewCell!
     @IBOutlet weak var systemeTableView: UITableViewCell!
@@ -49,10 +47,13 @@ class settingsTableViewController: UITableViewController, UIPickerViewDelegate, 
     @IBOutlet weak var systeme2TableView: UITableViewCell!
     @IBOutlet weak var navigationTableView: UITableViewCell!
     
+    // Données du PickerView
+    let myPickerData = [String](arrayLiteral: "Marmiton", "750g", "Cuisine AZ", "Journal des femmes")
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-    
         
+        // Mise à jour de tous les switch en lisant le contenu des réglages
         if UserDefaults.standard.bool(forKey: "PAD_COLORS") == true {
             colorSettingsSwitch.isOn = true
         }
@@ -88,10 +89,10 @@ class settingsTableViewController: UITableViewController, UIPickerViewDelegate, 
             openInAppSwitch.isOn = false
         }
         
-        if #available(iOS 13.0, *) {
+        // Changer les couleurs
         changeColors()
-        }
         
+        // Détecter si l'appareil est un iPad
         enum UIUserInterfaceIdiom : Int {
             case unspecified
 
@@ -99,11 +100,13 @@ class settingsTableViewController: UITableViewController, UIPickerViewDelegate, 
             case pad
         }
         
+        // Si l'appareil est un iPad, désactiver le switch des vibrations
         if UIDevice.current.userInterfaceIdiom == .pad {
             tapticSettingsSwitch.isEnabled = false
             tapticSettingsSwitch.isOn = false
         }
         
+        // Désactiver le style de sélection de tous les TableView
         apparenceTableView.selectionStyle = .none
         apparence2TableView.selectionStyle = .none
         systemeTableView.selectionStyle = .none
@@ -113,6 +116,7 @@ class settingsTableViewController: UITableViewController, UIPickerViewDelegate, 
         apropos2TableView.selectionStyle = .none
         navigationTableView.selectionStyle = .none
         
+        // Initialisation du PickerView
         let thePicker = UIPickerView()
         thePicker.delegate = self
         recetteInput.delegate = self
@@ -121,16 +125,18 @@ class settingsTableViewController: UITableViewController, UIPickerViewDelegate, 
         recetteInput.borderStyle = .none
         recetteInput.tintColor = .clear
         
+        // Initialisation de la barre d'accessoires du PickerView
         let pickerAccessory = UIToolbar()
-
         recetteInput.inputAccessoryView = pickerAccessory
 
+        // Ajout du bouton "fait" à la barre d'accessoires
         pickerAccessory.autoresizingMask = .flexibleHeight
         pickerAccessory.items = [
             UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil),
             UIBarButtonItem(title: "Fait", style: .done, target: self, action: #selector(pickerViewDone(_:)))
         ]
         
+        // Remplir le PickerView des sources de recettes
         switch UserDefaults.standard.string(forKey: "PAD_SOURCE") {
         case "Marmiton":
             recetteInput.text = "Marmiton"
@@ -149,22 +155,22 @@ class settingsTableViewController: UITableViewController, UIPickerViewDelegate, 
             thePicker.selectRow(0, inComponent: 0, animated: true)
         }
     }
-        
-    @objc
-     func pickerViewDone(_ sender: UIBarButtonItem) {
+    
+    @objc func pickerViewDone(_ sender: UIBarButtonItem) {
             recetteInput.resignFirstResponder()
-        }
+    }
     
-    let myPickerData = [String](arrayLiteral: "Marmiton", "750g", "Cuisine AZ", "Journal des femmes")
-    
+    // Fonction qui détecte quand la vue va apparaître
     override func viewWillAppear(_ animated: Bool) {
         changeColors()
     }
     
+    // Désactiver la petite barre bleue moche des TextField
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         return false
     }
 
+    // Fonctions qui détectent le changement d'état des switch et appliquent les réglages
     @IBAction func colorSwitched(_ sender: Any) {
         if colorSettingsSwitch.isOn == true {
             SettingsBundleHelper.SetColors(yesorno: true)
@@ -216,6 +222,7 @@ class settingsTableViewController: UITableViewController, UIPickerViewDelegate, 
         }
     }
     
+    // Fonction qui détecte quand la vue va apparaître
     override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
         super.traitCollectionDidChange(previousTraitCollection)
 
@@ -226,11 +233,20 @@ class settingsTableViewController: UITableViewController, UIPickerViewDelegate, 
         changeColors()
     }
     
+    // Fonction qui génère le changement de couleur lorsque celles-ci ne sont pas activées
     func changeColors() {
-        if #available(iOS 13.0, *) {
-        let color1 = UIColor.systemBackground
+        var color1: UIColor
         var color2: UIColor
         
+        // Si l'appareil iOS est sous iOS 13, obtenir la couleur du thème clair ou sombre, sinon mettre le fond en blanc
+        if #available(iOS 13.0, *) {
+            color1 = UIColor.systemBackground
+        }
+        else {
+            color1 = UIColor.white
+        }
+        
+        // Obtenir l'inverse de la couleur principale
         let ciColor = CIColor(color: color1)
         
         let compRed: CGFloat = 1.0 - ciColor.red
@@ -239,32 +255,18 @@ class settingsTableViewController: UITableViewController, UIPickerViewDelegate, 
         
         color2 = UIColor(red: compRed, green: compGreen, blue: compBlue, alpha: 1.0)
         
+        // Mettre la couleur inversée pour les titres de la navigation
         navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor : color2]
         navigationController?.navigationBar.tintColor = color2
-        }
-        else
-        {
-            let color1 = UIColor.white
-            var color2: UIColor
-            
-            let ciColor = CIColor(color: color1)
-            
-            let compRed: CGFloat = 1.0 - ciColor.red
-            let compGreen: CGFloat = 1.0 - ciColor.green
-            let compBlue: CGFloat = 1.0 - ciColor.blue
-            
-            color2 = UIColor(red: compRed, green: compGreen, blue: compBlue, alpha: 1.0)
-            
-            navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor : color2]
-            navigationController?.navigationBar.tintColor = color2
-        }
     }
     
+    // Fonction qui détecte quand le bouton pour ouvrir le site web du développeur est cliqué
     @IBAction func websiteTapped(_ sender: Any) {
         guard let url = URL(string: "https://brunopaiva.ch") else { return }
         UIApplication.shared.open(url)
     }
     
+    // Fonction qui détecte quand le bouton pour ouvrir le site web de la confidentialité est cliqué
     @IBAction func privacyTapped(_ sender: Any) {
         guard let url = URL(string: "https://brunopaiva.ch/confidentialite") else { return }
         UIApplication.shared.open(url)

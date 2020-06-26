@@ -15,7 +15,6 @@
 		3A304DBC2492C6BB00A5C564 /* infoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A304DBB2492C6BB00A5C564 /* infoViewController.swift */; };
 		3A4F24CB24968D62009F9781 /* choiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4F24CA24968D62009F9781 /* choiceViewController.swift */; };
 		3A582752249E154C00154AEF /* favouriteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A582751249E154C00154AEF /* favouriteTableViewController.swift */; };
-		3A582754249E179400154AEF /* Favourites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A582753249E179400154AEF /* Favourites.swift */; };
 		3A5872D6249B6F7B00820239 /* settingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5872D5249B6F7B00820239 /* settingsTableViewController.swift */; };
 		3A731787249401BD001AC5EB /* 1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3A731783249401BD001AC5EB /* 1.PNG */; };
 		3A731788249401BD001AC5EB /* 2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3A731784249401BD001AC5EB /* 2.PNG */; };
@@ -35,7 +34,6 @@
 		3AA0E836248ECB350089537D /* PickAFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA0E835248ECB350089537D /* PickAFoodTests.swift */; };
 		3AA0E841248ECB350089537D /* PickAFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA0E840248ECB350089537D /* PickAFoodUITests.swift */; };
 		3AA0E854248ECF040089537D /* FontsFree-Net-SF-Pro-Rounded-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AA0E853248ECF030089537D /* FontsFree-Net-SF-Pro-Rounded-Bold.ttf */; };
-		3AD8D39B249BAC7F00487115 /* sourceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD8D39A249BAC7F00487115 /* sourceTableViewController.swift */; };
 		543EF095A8AD35D5E4DFFBA3 /* Pods_PickADish_PickADishUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5362941642309AC6E616C0B9 /* Pods_PickADish_PickADishUITests.framework */; };
 		A0C4153BEE536785677BBAAC /* Pods_PickADish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BB0CF1346F054D80D19261 /* Pods_PickADish.framework */; };
 /* End PBXBuildFile section */
@@ -69,7 +67,6 @@
 		3A304DBB2492C6BB00A5C564 /* infoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = infoViewController.swift; path = PickADish/ViewController/infoViewController.swift; sourceTree = SOURCE_ROOT; };
 		3A4F24CA24968D62009F9781 /* choiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = choiceViewController.swift; path = PickADish/ViewController/choiceViewController.swift; sourceTree = SOURCE_ROOT; };
 		3A582751249E154C00154AEF /* favouriteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = favouriteTableViewController.swift; path = PickADish/ViewController/favouriteTableViewController.swift; sourceTree = SOURCE_ROOT; };
-		3A582753249E179400154AEF /* Favourites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Favourites.swift; path = PickADish/Favourites.swift; sourceTree = SOURCE_ROOT; };
 		3A5872D5249B6F7B00820239 /* settingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = settingsTableViewController.swift; path = PickADish/ViewController/settingsTableViewController.swift; sourceTree = SOURCE_ROOT; };
 		3A731783249401BD001AC5EB /* 1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.PNG; sourceTree = "<group>"; };
 		3A731784249401BD001AC5EB /* 2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.PNG; sourceTree = "<group>"; };
@@ -99,7 +96,6 @@
 		3AA0E840248ECB350089537D /* PickAFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickAFoodUITests.swift; sourceTree = "<group>"; };
 		3AA0E842248ECB350089537D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AA0E853248ECF030089537D /* FontsFree-Net-SF-Pro-Rounded-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "FontsFree-Net-SF-Pro-Rounded-Bold.ttf"; path = "../../PickADish/Fonts/FontsFree-Net-SF-Pro-Rounded-Bold.ttf"; sourceTree = "<group>"; };
-		3AD8D39A249BAC7F00487115 /* sourceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = sourceTableViewController.swift; path = PickADish/ViewController/sourceTableViewController.swift; sourceTree = SOURCE_ROOT; };
 		5362941642309AC6E616C0B9 /* Pods_PickADish_PickADishUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickADish_PickADishUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FB94887A973E1B107F73BCD /* Pods_PickADishTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickADishTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A627DE9D973AAA30A039551B /* Pods-PickADish-PickADishUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickADish-PickADishUITests.release.xcconfig"; path = "Target Support Files/Pods-PickADish-PickADishUITests/Pods-PickADish-PickADishUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -196,7 +192,6 @@
 				3AA0E829248ECB350089537D /* LaunchScreen.storyboard */,
 				3AA0E82C248ECB350089537D /* Info.plist */,
 				3A2624B52493748B0059DC6B /* ActualFood.swift */,
-				3A582753249E179400154AEF /* Favourites.swift */,
 				3A73178B24940EA4001AC5EB /* Settings.bundle */,
 				3A73178D249412DD001AC5EB /* SettingsBundleHelper.swift */,
 			);
@@ -229,7 +224,6 @@
 				3A2624B724937AFF0059DC6B /* detailsViewController.swift */,
 				3A4F24CA24968D62009F9781 /* choiceViewController.swift */,
 				3A5872D5249B6F7B00820239 /* settingsTableViewController.swift */,
-				3AD8D39A249BAC7F00487115 /* sourceTableViewController.swift */,
 				3A582751249E154C00154AEF /* favouriteTableViewController.swift */,
 			);
 			path = ViewController;
@@ -525,11 +519,9 @@
 				3A5872D6249B6F7B00820239 /* settingsTableViewController.swift in Sources */,
 				3A4F24CB24968D62009F9781 /* choiceViewController.swift in Sources */,
 				3A582752249E154C00154AEF /* favouriteTableViewController.swift in Sources */,
-				3AD8D39B249BAC7F00487115 /* sourceTableViewController.swift in Sources */,
 				3A2624B824937AFF0059DC6B /* detailsViewController.swift in Sources */,
 				3A2624B62493748B0059DC6B /* ActualFood.swift in Sources */,
 				3AA0E81F248ECB2F0089537D /* AppDelegate.swift in Sources */,
-				3A582754249E179400154AEF /* Favourites.swift in Sources */,
 				3A304DBC2492C6BB00A5C564 /* infoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,14 +6,9 @@
 	<array>
 		<dict>
 			<key>UIApplicationShortcutItemTitle</key>
-			<string>Play</string>
+			<string>Générer un plat aléatoirement</string>
 			<key>UIApplicationShortcutItemType</key>
-			<string>PlayMusic</string>
-			<key>UIApplicationShortcutItemUserInfo</key>
-			<dict>
-				<key>firstShortcutKey1</key>
-				<string>firstShortcutKeyValue1</string>
-			</dict>
+			<string>GenerateNewDish</string>
 		</dict>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
