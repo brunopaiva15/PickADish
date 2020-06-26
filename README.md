@@ -1,3 +1,5 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/brunopaiva15/pickadish/badge?s=e42f412cb4ebfa980d8bb0786cad4afcc473b635)](https://www.codefactor.io/repository/github/brunopaiva15/pickadish)
+
 # PickADish
 
 PickADish est une application iOS qui permet aux utilisateurs de celle-ci de générer des entrées, des plats, des desserts et des boissons aléatoirement. L'application arbore un design simple et efficace, afin de ne pas perdre une seule seconde.
