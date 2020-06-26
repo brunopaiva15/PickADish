@@ -30,17 +30,17 @@ open class SPAlertView: UIView {
     /**
      Large top text on alert.
      */
-    private var titleLabel: UILabel? = nil
+    private var titleLabel: UILabel?
     
     /**
      Small text on alert.
      */
-    private var subtitleLabel: UILabel? = nil
+    private var subtitleLabel: UILabel?
     
     /**
      Icon view. Size for it configure in `layout` property.
      */
-    private var iconView: UIView? = nil
+    private var iconView: UIView?
     
     /**
      Blur view for background.
@@ -193,7 +193,7 @@ open class SPAlertView: UIView {
         UIView.animate(withDuration: 0.2, animations: {
             self.alpha = 1
             self.transform = CGAffineTransform.identity
-        }, completion: {finished in
+        }, completion: {_ in
             if let iconView = self.iconView as? SPAlertIconAnimatable {
                 iconView.animate()
             }
@@ -210,7 +210,7 @@ open class SPAlertView: UIView {
         UIView.animate(withDuration: 0.2, animations: {
             self.alpha = 0
             self.transform = self.transform.scaledBy(x: 0.8, y: 0.8)
-        }, completion: { finished in
+        }, completion: { _ in
             self.removeFromSuperview()
         })
     }
