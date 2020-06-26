@@ -6,10 +6,13 @@
 //  Copyright © 2020 Bruno Paiva. All rights reserved.
 //
 
+// CLASSE QUI S'OCCUPE DES DONNEES DES REGLAGES
+
 import Foundation
 
 class SettingsBundleHelper {
     struct SettingsBundleKeys {
+        // Structure qui contient les clés des réglages
         static let Colors = "PAD_COLORS"
         static let Source = "PAD_SOURCE"
         static let FoodType = "PAD_TYPE"
@@ -21,6 +24,7 @@ class SettingsBundleHelper {
         static let OpenLinkInApp = "PAD_OPENINAPP"
     }
     
+    // Fonctions qui s'occupent de mettre à jour un réglage
     class func SetColors(yesorno: Bool) {
         UserDefaults.standard.set(yesorno, forKey: SettingsBundleKeys.Colors)
     }
