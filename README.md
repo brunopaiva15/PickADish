@@ -19,11 +19,11 @@ Pour commencer, téléchargez le projet sur GitHub. Décompressez le dossier que
 
 Pour déployer et tester l'application, importez-là, compilez-là et ouvrez-là avec votre simulateur préféré.
 
-## ✒ Authors
+## ✒ Auteur
 
 * **Bruno Paiva** - https://www.brunopaiva.ch
 
-## 📃 License
+## 📃 Licence
 
 Ce projet est sous licence GNU General Public License Version 3 - voir le fichier [LICENSE.md](LICENSE.md) pour plus de détails.
 
