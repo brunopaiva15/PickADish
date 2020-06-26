@@ -8,7 +8,6 @@
 
 import UIKit
 import SafariServices
-import SPAlert
 
 class detailsViewController: UIViewController, SFSafariViewControllerDelegate {
     
@@ -114,16 +113,23 @@ class detailsViewController: UIViewController, SFSafariViewControllerDelegate {
         let favourites = UserDefaults.standard.object(forKey: "PAD_FAVOURITES") as? [String]
         // Si le nom du plat est déjà dans les favoris, avertir l'utilisateur
         if favourites?.contains(foodText.text!) == true {
-            SPAlert.present(title: "Déjà ajouté aux favoris", preset: .error)
+            let alert = UIAlertController(title: "Erreur", message: "Ce plat a déjà été ajouté dans les favoris", preferredStyle: UIAlertController.Style.alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
         }
         // Sinon, ajouter le plat dans les favoris
         else
         {
             SettingsBundleHelper.AddDishToFavourites(dish: foodText.text!)
-            SPAlert.present(title: "Ajouté aux favoris", preset: .done)
             if #available(iOS 13.0, *) {
                 // Mettre à jour l'image des favoris avec une étoile remplie
                 favouriteButton.setImage(UIImage(systemName: "star.fill"), for: .normal)
+            }
+            else {
+                // Informer les utilisateurs en dessous d'iOS 13 que le plat a été ajouté dans les favoris
+                let alert = UIAlertController(title: "Fait", message: "Ce plat a été ajouté dans les favoris", preferredStyle: UIAlertController.Style.alert)
+                alert.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil))
+                self.present(alert, animated: true, completion: nil)
             }
         }
     }
