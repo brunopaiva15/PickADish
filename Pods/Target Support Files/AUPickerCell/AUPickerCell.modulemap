@@ -1,0 +1,6 @@
+framework module AUPickerCell {
+  umbrella header "AUPickerCell-umbrella.h"
+
+  export *
+  module * { export * }
+}

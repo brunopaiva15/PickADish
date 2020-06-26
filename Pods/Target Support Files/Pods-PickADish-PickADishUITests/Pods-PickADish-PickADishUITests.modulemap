@@ -1,0 +1,6 @@
+framework module Pods_PickADish_PickADishUITests {
+  umbrella header "Pods-PickADish-PickADishUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

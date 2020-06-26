@@ -1,0 +1,81 @@
+
+/* Class = "UILabel"; text = "Activer les gestes de balayage"; ObjectID = "7lw-QJ-PaG"; */
+"7lw-QJ-PaG.text" = "Activer les gestes de balayage";
+
+/* Class = "UILabel"; text = "👇"; ObjectID = "9YW-nR-O2S"; */
+"9YW-nR-O2S.text" = "👇";
+
+/* Class = "UINavigationItem"; title = "Plats"; ObjectID = "CYu-aE-sei"; */
+"CYu-aE-sei.title" = "Plats";
+
+/* Class = "UIButton"; normalTitle = "Site web du développeur"; ObjectID = "DXQ-nI-Q6J"; */
+"DXQ-nI-Q6J.normalTitle" = "Site web du développeur";
+
+/* Class = "UITableViewSection"; headerTitle = "Apparence"; ObjectID = "DXw-lz-uth"; */
+"DXw-lz-uth.headerTitle" = "Apparence";
+
+/* Class = "UIButton"; normalTitle = "Entrées"; ObjectID = "EHS-At-lMG"; */
+"EHS-At-lMG.normalTitle" = "Entrées";
+
+/* Class = "UIButton"; normalTitle = "Ajouter aux favoris"; ObjectID = "HK4-fq-lQI"; */
+"HK4-fq-lQI.normalTitle" = "Ajouter aux favoris";
+
+/* Class = "UIButton"; normalTitle = "Plats"; ObjectID = "K2z-gs-cEi"; */
+"K2z-gs-cEi.normalTitle" = "Plats";
+
+/* Class = "UITableViewSection"; headerTitle = "A propos"; ObjectID = "Mzo-iz-dcg"; */
+"Mzo-iz-dcg.headerTitle" = "A propos";
+
+/* Class = "UILabel"; text = "Activer les vibrations"; ObjectID = "NF7-qT-D4u"; */
+"NF7-qT-D4u.text" = "Activer les vibrations";
+
+/* Class = "UIButton"; normalTitle = "Desserts"; ObjectID = "PE7-V0-04Y"; */
+"PE7-V0-04Y.normalTitle" = "Desserts";
+
+/* Class = "UILabel"; text = "Couleurs pâles"; ObjectID = "UHZ-FV-ze5"; */
+"UHZ-FV-ze5.text" = "Couleurs pâles";
+
+/* Class = "UILabel"; text = "Source des recettes"; ObjectID = "aDD-Zi-eYX"; */
+"aDD-Zi-eYX.text" = "Source des recettes";
+
+/* Class = "UIButton"; normalTitle = "Politique de confidentialité"; ObjectID = "bc3-5x-gyY"; */
+"bc3-5x-gyY.normalTitle" = "Politique de confidentialité";
+
+/* Class = "UIButton"; normalTitle = "Boissons"; ObjectID = "bh3-vo-QrD"; */
+"bh3-vo-QrD.normalTitle" = "Boissons";
+
+/* Class = "UINavigationItem"; title = "Paramètres"; ObjectID = "cSF-9g-fBc"; */
+"cSF-9g-fBc.title" = "Paramètres";
+
+/* Class = "UILabel"; text = "© 2020 Bruno Paiva"; ObjectID = "cpa-rM-5st"; */
+"cpa-rM-5st.text" = "© 2020 Bruno Paiva";
+
+/* Class = "UITableViewSection"; headerTitle = "Général"; ObjectID = "dKy-9m-DLB"; */
+"dKy-9m-DLB.headerTitle" = "Général";
+
+/* Class = "UINavigationItem"; title = "Favoris"; ObjectID = "fj5-BI-DgI"; */
+"fj5-BI-DgI.title" = "Favoris";
+
+/* Class = "UITableViewSection"; headerTitle = "Système"; ObjectID = "iVj-d4-LjW"; */
+"iVj-d4-LjW.headerTitle" = "Système";
+
+/* Class = "UIButton"; normalTitle = "Je veux un plat !"; ObjectID = "kda-hS-ql4"; */
+"kda-hS-ql4.normalTitle" = "Je veux un plat !";
+
+/* Class = "UIButton"; normalTitle = " Ouvrir la recette"; ObjectID = "lM6-Ec-fIa"; */
+"lM6-Ec-fIa.normalTitle" = " Ouvrir la recette";
+
+/* Class = "UINavigationItem"; title = "PickADish"; ObjectID = "lag-nX-q1f"; */
+"lag-nX-q1f.title" = "PickADish";
+
+/* Class = "UITableViewSection"; headerTitle = "Plats"; ObjectID = "lgJ-wv-l8Y"; */
+"lgJ-wv-l8Y.headerTitle" = "Plats";
+
+/* Class = "UILabel"; text = "Activer les couleurs"; ObjectID = "rGr-bz-lWS"; */
+"rGr-bz-lWS.text" = "Activer les couleurs";
+
+/* Class = "UIButton"; normalTitle = " Partager le plat"; ObjectID = "tpG-Be-Rgi"; */
+"tpG-Be-Rgi.normalTitle" = " Partager le plat";
+
+/* Class = "UILabel"; text = "Oeufs brouillés aux légumes"; ObjectID = "xex-pW-vWl"; */
+"xex-pW-vWl.text" = "Oeufs brouillés aux légumes";

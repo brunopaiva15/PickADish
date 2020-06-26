@@ -1,0 +1,20 @@
+PODS:
+  - AUPickerCell (1.0.2.0)
+  - SPAlert (2.1.4)
+
+DEPENDENCIES:
+  - AUPickerCell
+  - SPAlert
+
+SPEC REPOS:
+  trunk:
+    - AUPickerCell
+    - SPAlert
+
+SPEC CHECKSUMS:
+  AUPickerCell: b6f788d62f449014204776ff6fdc841aebbc352f
+  SPAlert: 1a8afa1c6ac86a82ab5b2cfdf7f9a51e68cb6c0c
+
+PODFILE CHECKSUM: 41bd38b41fdbbf15e8f22bc660975950572ad23f
+
+COCOAPODS: 1.9.3
