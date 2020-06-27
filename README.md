@@ -15,7 +15,7 @@ Ces instructions vous permettront d'obtenir une copie du projet sur votre machin
 
 ### ⛏ Importer
 
-Pour commencer, téléchargez le projet sur GitHub. Décompressez le dossier quelque part sur votre ordinateur. Ensuite, ouvrez le fichier "PickADish.xcworkspace" avec Xcode 11. Et voilà. Le projet est ouvert et vous pouvez le modifier à votre convenance.
+Pour commencer, téléchargez le projet sur GitHub. Décompressez le dossier quelque part sur votre ordinateur. Ensuite, ouvrez le fichier "PickADish.xcodeproj" avec Xcode 11. Et voilà. Le projet est ouvert et vous pouvez le modifier à votre convenance.
 
 ## 💿 Déploiement
 
