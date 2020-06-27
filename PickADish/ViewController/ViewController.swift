@@ -133,6 +133,7 @@ class ViewController: UIViewController, SFSafariViewControllerDelegate {
         // Générer l'URL pour le plat et l'enregistrer dans la classe ActualFood
         urlFormatPublic = generateUrlForDish(foodName: foodText.text!)
         ActualFood.setFoodUrl(foodUrl: urlFormatPublic)
+        loadDetails()
     }
     
     // Ouvrir la page des détails
@@ -157,7 +158,7 @@ class ViewController: UIViewController, SFSafariViewControllerDelegate {
     func generateNewDish() {
         // Si le nombre de plats est supérieur ou égal à 1
         if foodback.count >= 1 {
-            // Si le bouton de retour est caché, ne pas mettre à jour celui-ci
+            // Si le bouton de retour est caché, l'activer
             if backButton.isHidden == true {
                 updateBack(false)
             }
@@ -388,21 +389,18 @@ class ViewController: UIViewController, SFSafariViewControllerDelegate {
             } while contrastRatio < 2.2 // Tant que le contraste n'est pas lisible confortablement pour l'être humain, générer une autre couleur
         }
         
-        // Animer la transition des couleurs
-        UIView.animate(withDuration: 0.1, animations: {
-            // Mettre la couleur inversée pour les boutons, le label des plats et les titres de la navigation
-            self.foodText.textColor = color2
-            self.generateButton.backgroundColor = color2
-            self.backButton.tintColor = color2
-            self.settingsButton.tintColor = color2
-            self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor : color2]
-            self.navigationController?.navigationBar.tintColor = color2
-            
-            // Pour tout le reste, mettre la couleur principale
-            self.generateButton.setTitleColor(color1, for: .normal)
-            self.navigationController?.navigationBar.barTintColor = color1
-            self.view.backgroundColor = color1
-        })
+        // Mettre la couleur inversée pour les boutons, le label des plats et les titres de la navigation
+        self.foodText.textColor = color2
+        self.generateButton.backgroundColor = color2
+        self.backButton.tintColor = color2
+        self.settingsButton.tintColor = color2
+        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor : color2]
+        self.navigationController?.navigationBar.tintColor = color2
+        
+        // Pour tout le reste, mettre la couleur principale
+        self.generateButton.setTitleColor(color1, for: .normal)
+        self.navigationController?.navigationBar.barTintColor = color1
+        self.view.backgroundColor = color1
         
     }
     

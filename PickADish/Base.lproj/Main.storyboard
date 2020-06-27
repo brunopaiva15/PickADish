@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YfO-NN-gRl">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17132" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YfO-NN-gRl">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17105"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -21,7 +22,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bh3-vo-QrD">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bh3-vo-QrD">
                                 <rect key="frame" x="68.5" y="596" width="277" height="58"/>
                                 <color key="backgroundColor" red="0.1213559583" green="0.31729531290000001" blue="0.84318214650000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
@@ -37,7 +38,7 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="egH-gS-DZN"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PE7-V0-04Y">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PE7-V0-04Y">
                                 <rect key="frame" x="68.5" y="496" width="277" height="58"/>
                                 <color key="backgroundColor" red="0.1213559583" green="0.31729531290000001" blue="0.84318214650000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
@@ -53,7 +54,7 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="U5o-X6-XsK"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K2z-gs-cEi">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K2z-gs-cEi">
                                 <rect key="frame" x="68.5" y="396" width="277" height="58"/>
                                 <color key="backgroundColor" red="0.1213559583" green="0.31729531290000001" blue="0.84318214650000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
@@ -69,7 +70,7 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="afR-xl-rab"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EHS-At-lMG">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EHS-At-lMG">
                                 <rect key="frame" x="68.5" y="296" width="277" height="58"/>
                                 <color key="backgroundColor" red="0.1213559583" green="0.31729531290000001" blue="0.84318214650000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
@@ -86,7 +87,8 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="ufI-if-tmJ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="EHS-At-lMG" firstAttribute="centerX" secondItem="ufI-if-tmJ" secondAttribute="centerX" id="1bh-cY-RtW"/>
                             <constraint firstItem="K2z-gs-cEi" firstAttribute="centerY" secondItem="ufI-if-tmJ" secondAttribute="centerY" constant="-50" id="3lA-RH-ayQ"/>
@@ -97,19 +99,21 @@
                             <constraint firstItem="EHS-At-lMG" firstAttribute="centerY" secondItem="ufI-if-tmJ" secondAttribute="centerY" constant="-150" id="sNc-VD-Bxh"/>
                             <constraint firstItem="K2z-gs-cEi" firstAttribute="centerX" secondItem="ufI-if-tmJ" secondAttribute="centerX" id="tiS-1k-B2U"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="ufI-if-tmJ"/>
                     </view>
                     <navigationItem key="navigationItem" title="PickADish" id="lag-nX-q1f">
-                        <barButtonItem key="leftBarButtonItem" style="plain" id="MiN-dD-glw">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="QTA-Z7-ArQ">
-                                <rect key="frame" x="20" y="8.5" width="31" height="27"/>
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="MIo-xp-7pi">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="i9T-Xs-iHx">
+                                <rect key="frame" x="20" y="8.5" width="31" height="27.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="7y0-sO-bp7"/>
+                                </constraints>
                                 <state key="normal" image="star" catalog="system">
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="23"/>
                                 </state>
                                 <connections>
-                                    <action selector="favouritesTapped:" destination="OIq-B0-M0U" eventType="touchUpInside" id="YHd-JM-2RW"/>
-                                    <segue destination="8IF-sZ-1Vm" kind="show" id="q6g-SU-PxC"/>
+                                    <action selector="favouritesTapped:" destination="OIq-B0-M0U" eventType="touchUpInside" id="i2H-wa-LkG"/>
+                                    <segue destination="8IF-sZ-1Vm" kind="show" id="E7u-TC-5Yr"/>
                                 </connections>
                             </button>
                         </barButtonItem>
@@ -124,19 +128,17 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="23"/>
                                 </state>
                                 <connections>
+                                    <action selector="settingsTapped:" destination="OIq-B0-M0U" eventType="touchUpInside" id="WQx-IO-A4e"/>
                                     <segue destination="unZ-TI-XbW" kind="show" id="g3p-sP-jjW"/>
                                 </connections>
                             </button>
-                            <connections>
-                                <action selector="settingsTapped:" destination="OIq-B0-M0U" id="is3-2I-4S2"/>
-                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="btnBoissons" destination="bh3-vo-QrD" id="mms-WX-is2"/>
                         <outlet property="btnDesserts" destination="PE7-V0-04Y" id="MBm-dr-lst"/>
                         <outlet property="btnEntrees" destination="EHS-At-lMG" id="XzK-05-gWz"/>
-                        <outlet property="btnFavourites" destination="QTA-Z7-ArQ" id="tps-Oh-323"/>
+                        <outlet property="btnFavourites" destination="i9T-Xs-iHx" id="mAH-Xu-ZXc"/>
                         <outlet property="btnPlats" destination="K2z-gs-cEi" id="hH6-Ke-rfc"/>
                         <outlet property="btnSettings" destination="9xh-on-0Vf" id="hh8-Yb-YVy"/>
                     </connections>
@@ -153,7 +155,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="kda-hS-ql4">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="kda-hS-ql4">
                                 <rect key="frame" x="70" y="711" width="277" height="68"/>
                                 <color key="backgroundColor" red="0.1213559583" green="0.31729531290000001" blue="0.84318214650000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
@@ -206,7 +208,8 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="9YW-nR-O2S" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Akc-DZ-lnb"/>
@@ -222,7 +225,6 @@
                             <constraint firstItem="9YW-nR-O2S" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="26" id="sGR-DS-rN6"/>
                             <constraint firstItem="xxz-sm-Gqq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="168" id="vVJ-8F-c2m"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="aym-F4-eys"/>
                     <connections>
@@ -260,7 +262,7 @@
                                 <rect key="frame" x="87.5" y="444.5" width="239" height="57"/>
                                 <fontDescription key="fontDescription" name="SFRounded-Ultralight" family="SF Pro Rounded" pointSize="24"/>
                                 <state key="normal" title=" Ouvrir la recette" image="safari" catalog="system">
-                                    <color key="titleColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" systemColor="systemBlueColor"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="50"/>
                                 </state>
                                 <connections>
@@ -271,7 +273,7 @@
                                 <rect key="frame" x="94.5" y="543" width="225" height="62.5"/>
                                 <fontDescription key="fontDescription" name="SFRounded-Ultralight" family="SF Pro Rounded" pointSize="24"/>
                                 <state key="normal" title=" Partager le plat" image="square.and.arrow.up" catalog="system">
-                                    <color key="titleColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" systemColor="systemBlueColor"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="50"/>
                                 </state>
                                 <connections>
@@ -282,7 +284,7 @@
                                 <rect key="frame" x="41" y="646" width="332" height="60"/>
                                 <fontDescription key="fontDescription" name="SFRounded-Ultralight" family="SF Pro Rounded" pointSize="24"/>
                                 <state key="normal" title="Ajouter aux favoris" image="star" catalog="system">
-                                    <color key="titleColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" systemColor="systemBlueColor"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="50"/>
                                 </state>
                                 <connections>
@@ -295,11 +297,12 @@
                                     <constraint firstAttribute="height" constant="244" id="qJa-1d-8iW"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="SFRounded-Ultralight" family="SF Pro Rounded" pointSize="54"/>
-                                <color key="textColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" systemColor="systemBlueColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="u9z-uE-Ezv"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="xex-pW-vWl" firstAttribute="centerX" secondItem="liC-Mf-AeW" secondAttribute="centerX" id="0sb-0P-uLU"/>
                             <constraint firstItem="xex-pW-vWl" firstAttribute="leading" secondItem="u9z-uE-Ezv" secondAttribute="leading" constant="25" id="4OY-26-pQv"/>
@@ -312,7 +315,6 @@
                             <constraint firstItem="tpG-Be-Rgi" firstAttribute="centerX" secondItem="HK4-fq-lQI" secondAttribute="centerX" id="mSC-rV-Lvz"/>
                             <constraint firstItem="tpG-Be-Rgi" firstAttribute="top" secondItem="lM6-Ec-fIa" secondAttribute="bottom" constant="41.5" id="mp1-Gu-2Y4"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="u9z-uE-Ezv"/>
                     </view>
                     <connections>
                         <outlet property="favouriteButton" destination="HK4-fq-lQI" id="9mx-fk-ehf"/>
@@ -332,7 +334,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="I1Y-Er-rNC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <sections>
                             <tableViewSection headerTitle="Apparence" id="DXw-lz-uth">
                                 <cells>
@@ -573,7 +575,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DXQ-nI-Q6J">
+                                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DXQ-nI-Q6J">
                                                     <rect key="frame" x="20" y="5" width="190" height="33"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <state key="normal" title="Site web du développeur"/>
@@ -596,7 +598,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bc3-5x-gyY">
+                                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bc3-5x-gyY">
                                                     <rect key="frame" x="20" y="5" width="226" height="33"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="226" id="4sj-JR-hvV"/>
@@ -658,7 +660,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="ILv-Nl-GIR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="favoriteCell" id="6ja-pb-b3Q">
                                 <rect key="frame" x="0.0" y="55.5" width="414" height="43.5"/>
@@ -703,10 +705,16 @@
         <segue reference="egH-gS-DZN"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="backward.fill" catalog="system" width="128" height="79"/>
+        <image name="backward.fill" catalog="system" width="128" height="77"/>
         <image name="gear" catalog="system" width="128" height="119"/>
         <image name="safari" catalog="system" width="128" height="121"/>
         <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
         <image name="star" catalog="system" width="128" height="116"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>

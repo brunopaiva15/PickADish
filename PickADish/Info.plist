@@ -2,17 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSSiriUsageDescription</key>
-	<string>Demander un plat à Siri</string>
-	<key>UIApplicationShortcutItems</key>
-	<array>
-		<dict>
-			<key>UIApplicationShortcutItemTitle</key>
-			<string>Générer un plat aléatoirement</string>
-			<key>UIApplicationShortcutItemType</key>
-			<string>GenerateNewDish</string>
-		</dict>
-	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
@@ -31,11 +20,22 @@
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSSiriUsageDescription</key>
+	<string>Demander un plat à Siri</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>FontsFree-Net-SFProDisplay-Bold.ttf</string>
 		<string>FontsFree-Net-SFProDisplay-Semibold.ttf</string>
 		<string>FontsFree-Net-SF-Pro-Rounded-Bold.ttf</string>
+	</array>
+	<key>UIApplicationShortcutItems</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Générer un plat aléatoirement</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>GenerateNewDish</string>
+		</dict>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
