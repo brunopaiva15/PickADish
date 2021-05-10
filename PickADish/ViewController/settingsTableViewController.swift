@@ -268,7 +268,7 @@ class settingsTableViewController: UITableViewController, UIPickerViewDelegate, 
     
     // Fonction qui détecte quand le bouton pour ouvrir le site web de la confidentialité est cliqué
     @IBAction func privacyTapped(_ sender: Any) {
-        guard let url = URL(string: "https://brunopaiva.ch/confidentialite") else { return }
+        guard let url = URL(string: "https://brunopaiva.ch/confidentialite.html") else { return }
         UIApplication.shared.open(url)
     }
     
