@@ -8,25 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		3A2624B42492E1410059DC6B /* b+s_variant2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2624B32492E1410059DC6B /* b+s_variant2.png */; };
-		3A2624B62493748B0059DC6B /* ActualFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2624B52493748B0059DC6B /* ActualFood.swift */; };
-		3A2624B824937AFF0059DC6B /* detailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2624B724937AFF0059DC6B /* detailsViewController.swift */; };
 		3A304DBA2492BB7000A5C564 /* rsz_p-s_variant2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A304DB92492BB7000A5C564 /* rsz_p-s_variant2.png */; };
-		3A4F24CB24968D62009F9781 /* choiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4F24CA24968D62009F9781 /* choiceViewController.swift */; };
-		3A582752249E154C00154AEF /* favouriteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A582751249E154C00154AEF /* favouriteTableViewController.swift */; };
-		3A5872D6249B6F7B00820239 /* settingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5872D5249B6F7B00820239 /* settingsTableViewController.swift */; };
 		3A731787249401BD001AC5EB /* 1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3A731783249401BD001AC5EB /* 1.PNG */; };
 		3A731788249401BD001AC5EB /* 2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3A731784249401BD001AC5EB /* 2.PNG */; };
 		3A731789249401BD001AC5EB /* 4.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3A731785249401BD001AC5EB /* 4.PNG */; };
 		3A73178A249401BD001AC5EB /* 3.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 3A731786249401BD001AC5EB /* 3.PNG */; };
 		3A73178C24940EA4001AC5EB /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3A73178B24940EA4001AC5EB /* Settings.bundle */; };
-		3A73178E249412DD001AC5EB /* SettingsBundleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A73178D249412DD001AC5EB /* SettingsBundleHelper.swift */; };
 		3AA0535124A5FE0C00061829 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AA0534E24A5FE0C00061829 /* star.png */; };
 		3AA0535224A5FE0C00061829 /* star.fill.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AA0534F24A5FE0C00061829 /* star.fill.png */; };
 		3AA0535324A5FE0C00061829 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AA0535024A5FE0C00061829 /* x.png */; };
 		3AA0535524A5FE1100061829 /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AA0535424A5FE1100061829 /* gear.png */; };
-		3AA0E81F248ECB2F0089537D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA0E81E248ECB2F0089537D /* AppDelegate.swift */; };
-		3AA0E823248ECB2F0089537D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA0E822248ECB2F0089537D /* ViewController.swift */; };
-		3AA0E826248ECB2F0089537D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AA0E824248ECB2F0089537D /* Main.storyboard */; };
 		3AA0E828248ECB350089537D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AA0E827248ECB350089537D /* Assets.xcassets */; };
 		3AA0E82B248ECB350089537D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AA0E829248ECB350089537D /* LaunchScreen.storyboard */; };
 		3AA0E836248ECB350089537D /* PickAFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA0E835248ECB350089537D /* PickAFoodTests.swift */; };
@@ -180,15 +171,10 @@
 				3A731782249401AE001AC5EB /* Tuto */,
 				3A304DB82492BB5C00A5C564 /* Graphismes */,
 				3AA0E84F248ECE880089537D /* Fonts */,
-				3AA0E84E248ECCFC0089537D /* ViewController */,
-				3AA0E81E248ECB2F0089537D /* AppDelegate.swift */,
-				3AA0E824248ECB2F0089537D /* Main.storyboard */,
 				3AA0E827248ECB350089537D /* Assets.xcassets */,
 				3AA0E829248ECB350089537D /* LaunchScreen.storyboard */,
 				3AA0E82C248ECB350089537D /* Info.plist */,
-				3A2624B52493748B0059DC6B /* ActualFood.swift */,
 				3A73178B24940EA4001AC5EB /* Settings.bundle */,
-				3A73178D249412DD001AC5EB /* SettingsBundleHelper.swift */,
 			);
 			path = PickADIsh;
 			sourceTree = "<group>";
@@ -209,19 +195,6 @@
 				3AA0E842248ECB350089537D /* Info.plist */,
 			);
 			path = PickADishUITests;
-			sourceTree = "<group>";
-		};
-		3AA0E84E248ECCFC0089537D /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				3AA0E822248ECB2F0089537D /* ViewController.swift */,
-				3A304DBB2492C6BB00A5C564 /* infoViewController.swift */,
-				3A2624B724937AFF0059DC6B /* detailsViewController.swift */,
-				3A4F24CA24968D62009F9781 /* choiceViewController.swift */,
-				3A5872D5249B6F7B00820239 /* settingsTableViewController.swift */,
-				3A582751249E154C00154AEF /* favouriteTableViewController.swift */,
-			);
-			path = ViewController;
 			sourceTree = "<group>";
 		};
 		3AA0E84F248ECE880089537D /* Fonts */ = {
@@ -359,7 +332,6 @@
 				3AA0535124A5FE0C00061829 /* star.png in Resources */,
 				3A304DBA2492BB7000A5C564 /* rsz_p-s_variant2.png in Resources */,
 				3A731789249401BD001AC5EB /* 4.PNG in Resources */,
-				3AA0E826248ECB2F0089537D /* Main.storyboard in Resources */,
 				3A731788249401BD001AC5EB /* 2.PNG in Resources */,
 				3AA0535524A5FE1100061829 /* gear.png in Resources */,
 				3A73178C24940EA4001AC5EB /* Settings.bundle in Resources */,
@@ -453,14 +425,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A73178E249412DD001AC5EB /* SettingsBundleHelper.swift in Sources */,
-				3AA0E823248ECB2F0089537D /* ViewController.swift in Sources */,
-				3A5872D6249B6F7B00820239 /* settingsTableViewController.swift in Sources */,
-				3A4F24CB24968D62009F9781 /* choiceViewController.swift in Sources */,
-				3A582752249E154C00154AEF /* favouriteTableViewController.swift in Sources */,
-				3A2624B824937AFF0059DC6B /* detailsViewController.swift in Sources */,
-				3A2624B62493748B0059DC6B /* ActualFood.swift in Sources */,
-				3AA0E81F248ECB2F0089537D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,16 +460,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3AA0E824248ECB2F0089537D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3AA0E825248ECB2F0089537D /* Base */,
-				3A88DD9224A49B550099AD69 /* fr */,
-			);
-			name = Main.storyboard;
-			path = ../PickADish;
-			sourceTree = "<group>";
-		};
 		3AA0E829248ECB350089537D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
