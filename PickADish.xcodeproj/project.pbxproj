@@ -11,7 +11,6 @@
 		3A2624B62493748B0059DC6B /* ActualFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2624B52493748B0059DC6B /* ActualFood.swift */; };
 		3A2624B824937AFF0059DC6B /* detailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2624B724937AFF0059DC6B /* detailsViewController.swift */; };
 		3A304DBA2492BB7000A5C564 /* rsz_p-s_variant2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A304DB92492BB7000A5C564 /* rsz_p-s_variant2.png */; };
-		3A304DBC2492C6BB00A5C564 /* infoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A304DBB2492C6BB00A5C564 /* infoViewController.swift */; };
 		3A4F24CB24968D62009F9781 /* choiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4F24CA24968D62009F9781 /* choiceViewController.swift */; };
 		3A582752249E154C00154AEF /* favouriteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A582751249E154C00154AEF /* favouriteTableViewController.swift */; };
 		3A5872D6249B6F7B00820239 /* settingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5872D5249B6F7B00820239 /* settingsTableViewController.swift */; };
@@ -71,7 +70,6 @@
 		3A2624B52493748B0059DC6B /* ActualFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ActualFood.swift; path = PickADish/ActualFood.swift; sourceTree = SOURCE_ROOT; };
 		3A2624B724937AFF0059DC6B /* detailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = detailsViewController.swift; path = PickADish/ViewController/detailsViewController.swift; sourceTree = SOURCE_ROOT; };
 		3A304DB92492BB7000A5C564 /* rsz_p-s_variant2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rsz_p-s_variant2.png"; path = "Graphismes/rsz_p-s_variant2.png"; sourceTree = SOURCE_ROOT; };
-		3A304DBB2492C6BB00A5C564 /* infoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = infoViewController.swift; path = PickADish/ViewController/infoViewController.swift; sourceTree = SOURCE_ROOT; };
 		3A4F24CA24968D62009F9781 /* choiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = choiceViewController.swift; path = PickADish/ViewController/choiceViewController.swift; sourceTree = SOURCE_ROOT; };
 		3A582751249E154C00154AEF /* favouriteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = favouriteTableViewController.swift; path = PickADish/ViewController/favouriteTableViewController.swift; sourceTree = SOURCE_ROOT; };
 		3A5872D5249B6F7B00820239 /* settingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = settingsTableViewController.swift; path = PickADish/ViewController/settingsTableViewController.swift; sourceTree = SOURCE_ROOT; };
@@ -463,7 +461,6 @@
 				3A2624B824937AFF0059DC6B /* detailsViewController.swift in Sources */,
 				3A2624B62493748B0059DC6B /* ActualFood.swift in Sources */,
 				3AA0E81F248ECB2F0089537D /* AppDelegate.swift in Sources */,
-				3A304DBC2492C6BB00A5C564 /* infoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,7 +570,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -628,7 +625,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -649,7 +646,7 @@
 				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = 7UMJV7PGVT;
 				INFOPLIST_FILE = PickADish/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -675,7 +672,7 @@
 				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = 7UMJV7PGVT;
 				INFOPLIST_FILE = PickADish/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -698,7 +695,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PickAFoodTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -719,7 +716,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PickAFoodTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
